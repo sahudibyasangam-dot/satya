@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satyam Sweet Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff5c8d;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #ff99b9;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: url("https://images.unsplash.com/photo-1578985545062-69928b1d9587") no-repeat center/cover;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      background: rgba(0,0,0,0.5);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+      color: #ff5c8d;
+    }
+
+    footer {
+      background: #ff5c8d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍭 Satyam's Sweet Shop 🍬</h1>
+    <p>Delicious sweets made with love!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to Satyam Sweet Shop – Where Happiness is Sweet!</h2>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2016/10/gulab-jamun-using-mix.jpg?w=1200&ssl=1" alt="Gulab Jamun">
+      <h3>Gulab Jamun</h3>
+      <p>Soft & juicy Indian delight.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://madhurasrecipe.com/wp-content/uploads/2023/10/Rasgulla-Featured-Image.jpg" alt="Rasgulla">
+      <h3>Rasgulla</h3>
+      <p>Spongy balls dipped in sugar syrup.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://i.ndtvimg.com/i/2017-08/kaju-barfi_650x400_71501923806.jpg" alt="Barfi">
+      <h3>Kaju Barfi</h3>
+      <p>Cashew-rich sweet treat.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://madhurasrecipe.com/wp-content/uploads/2023/09/Ladu-Featured-Image.jpg" alt="Ladoo">
+      <h3>Motichoor Ladoo</h3>
+      <p>Golden pearls of sweetness.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Satyam Sweet Shop | Made with ❤️</p>
+  </footer>
+
+</body>
+</html>
